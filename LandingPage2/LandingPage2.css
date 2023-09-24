@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) no-repeat;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-family: Satisfy;
+    font-size: 10rem;
+}
+
+h2 {
+    font-family: Varela Round;
+    font-size: 3rem;
+}
+
+p {
+    color: #ffffff;
+    font-family: Varela Round;
+    font-size: 1rem;
+    max-width: 80vw;
+}
+
+.form-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1vw;
+    text-align: center;
+}
+
+form {
+    color: #ffffff;
+    direction: rtl;
+    font-size: 1rem;
+    font-family: Varela Round;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-bottom: 0.2vh;
+}
+
+input[type=text] {
+    border: 2px solid #ffffff;
+    background-color: #cccaca3a;
+    padding: .5vh;
+    width: 15vw;
+}
+
+.send {
+    padding: .5vh;
+    margin: 1.1vw;
+    width: 7vw;
+    border: 2px solid #ffffff;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) no-repeat;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+    }
+
+    h1 {
+        font-family: Satisfy;
+        font-size: 5em;
+    }
+
+    h2 {
+        font-family: Varela Round;
+        font-size: 1.3em;
+        margin-top: 3vh;
+    }
+
+    p {
+        color: #ffffff;
+        font-family: Varela Round;
+        font-size: 1rem;
+        max-width: 80vw;
+        margin-top: 3vh;
+    }
+
+    .form-container {
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    form {
+        color: #ffffff;
+        direction: rtl;
+        font-size: 1rem;
+        font-family: Varela Round;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 0.2vh;
+        margin: 1.3vw;
+    }
+
+    input[type=text] {
+        border: 2px solid #ffffff;
+        background-color: #cccaca3a;
+        padding: .5vh;
+        margin: 1.3vw;
+        width: 91vw;
+    }
+
+    .send {
+        padding: .5vh;
+        margin: 1.4vw;
+        width: 91vw;
+        border: 2px solid #ffffff;
+    }
+}

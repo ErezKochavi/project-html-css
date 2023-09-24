@@ -1,0 +1,18 @@
+ .navbar {
+     background-color: #333;
+     width: 100vw;
+ }
+
+ .navbar-nav .nav-item {
+     transition: color 0.3s;
+     text-decoration: none;
+ }
+
+ .navbar-nav .nav-item .nav-link:hover {
+     color: #b87af5;
+     transition: color 0.3s;
+ }
+
+ .navbar-brand {
+     color: #b87af5;
+ }
