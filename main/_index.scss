@@ -1,0 +1,149 @@
+body {
+    background-image: linear-gradient(#D4ADFC, #5C469C, #1D267D);
+}
+
+.main-container {
+    width: 100vw;
+    height: 100%;
+}
+
+// info settings
+.info {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info button {
+    background-color: #3d3d3d;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.info button:hover {
+    background-color: #b87af5;
+    margin-bottom: 10px;
+}
+
+.me {
+    width: 95vw;
+    text-align: center;
+    height: 25vh;
+    margin-bottom: 70px;
+}
+
+.me img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.knowledge {
+    width: 50vw;
+    height: 50%;
+}
+
+.knowledge h3 {
+    text-align: center;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+}
+
+.noCodeIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.noCodeIcon span {
+    margin: 10px;
+}
+
+.info .knowledge span {
+    width: 70px;
+    border-radius: 3px;
+    font-size: 1rem;
+    background-color: #77777792;
+    color: #fff;
+    text-align: center;
+}
+
+.info .knowledge span:hover {
+    width: 70px;
+    border-radius: 3px;
+    font-size: 1rem;
+    background-color: #3d3d3d;
+    color: #fff;
+    text-align: center;
+}
+
+.no-code {
+    margin-top: 5px;
+}
+
+// Project settings
+.Projects {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Projects h1 {
+    text-align: center;
+}
+
+.Projects button {
+    background-color: #3d3d3d;
+    color: #fff;
+}
+
+.Projects button:hover {
+    background-color: #b87af5;
+    color: #fff;
+}
+
+.Projects .card {
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px #3d3d3d;
+}
+
+.Projects .card a {
+    background-color: #3d3d3d;
+    color: #fff;
+}
+
+.Projects .card a:hover {
+    background-color: #b87af5;
+    color: #fff;
+}
+
+// Contact settings
+.Contact {
+    height: 55vh;
+    width: 100%;
+    color: #fff;
+}
+
+.Contact h3 {
+    text-align: center;
+    text-decoration: underline #b87af5;
+}
+
+.Contact button {
+    width: 100%;
+    background-color: #3d3d3d;
+}
+
+.Contact button:hover {
+    width: 100%;
+    background-color: #b87af5;
+    color: #000;
+}

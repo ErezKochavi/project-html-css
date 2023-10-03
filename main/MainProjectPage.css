@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Oswald, serif;
+}
+
+.copyrights {
+  width: 100%;
+  height: 25px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: #333;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #b87af5;
+  transition: color 0.3s;
+}
+
+.navbar-brand {
+  color: #b87af5;
+}
+
+.main-container {
+  width: 100%;
+}
+
+.opener {
+  width: 100%;
+  height: 30vh;
+  background-image: linear-gradient(#D4ADFC, #5C469C, #1D267D);
+}
+
+.opener h2 {
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.opener p {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff8f8;
+}
+
+.project1 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.project2 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.project3 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.project4 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.project5 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.project6 {
+  width: 100%;
+  height: 40vh;
+  text-align: center;
+}
+
+.PC {
+  width: 400px;
+  height: 200px;
+}
+
+.Mobile {
+  width: 200px;
+  height: 200px;
+}
+
+.Contact {
+  height: 55vh;
+  width: 100%;
+  color: #000;
+  background-image: linear-gradient(#D4ADFC, #5C469C, #1D267D);
+}
+
+.Contact h3 {
+  text-align: center;
+  -webkit-text-decoration: underline #b87af5;
+          text-decoration: underline #b87af5;
+}
+
+.Contact button {
+  width: 100%;
+  background-color: #3d3d3d;
+}
+
+.Contact button:hover {
+  width: 100%;
+  background-color: #b87af5;
+  color: #000;
+}/*# sourceMappingURL=MainProjectPage.css.map */

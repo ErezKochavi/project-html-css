@@ -7,19 +7,35 @@
 }
 
 .container-left {
-    width: 65vw;
-    height: 80vh;
+    width: 60vw;
+    height: 70vh;
 }
 
 .text {
     width: 100vw;
     height: 20%;
-    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.PC {
+    margin-top: 40px;
+}
+
+.PC img {
+    width: 100%;
 }
 
 .container-right {
-    width: 35vw;
+    width: 40vw;
     height: 80vh;
+}
+
+.Phone {
+    padding-top: 10vh;
+}
+
+#container-btn {
+    margin-top: 30px;
 }
 
 .btn {
@@ -32,6 +48,11 @@
     background-color: #c69749;
     color: #fff;
     border: 1px solid #000;
+}
+
+.btn a {
+    color: #000;
+    text-decoration: none;
 }
 
 @media (max-width:1400px) {
@@ -59,9 +80,19 @@
         height: 70%;
     }
 
+    .PC img {
+        width: 80%;
+        height: 90%;
+        margin-top: 17px;
+    }
+
     .container-right {
         width: 40vw;
         height: 100%;
+    }
+
+    .Phone {
+        padding-top: 27vh;
     }
 
     .btn {
@@ -88,7 +119,7 @@
 
     .container-left {
         width: 100vw;
-        height: 40vh;
+        height: 50vh;
     }
 
     .text {
@@ -96,9 +127,28 @@
         height: 20vh;
     }
 
+    .PC {
+        width: 100vw;
+    }
+
+    .PC img {
+        width: 100vw;
+        height: 100%;
+        margin-top: 5vh;
+        margin-left: 10%;
+    }
+
     .container-right {
         width: 100vw;
-        height: 30vh;
+        height: 20vh;
+    }
+
+    .Phone {
+        padding-top: 0;
+    }
+
+    .Phone img {
+        display: none;
     }
 
     .btn:hover {
