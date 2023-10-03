@@ -1,5 +1,6 @@
 .main-container {
     width: 100%;
+    height: 100%;
 }
 
 // Opener Settings
@@ -7,19 +8,18 @@
     width: 100%;
     height: 30vh;
     background-image: linear-gradient(#D4ADFC, #5C469C, #1D267D);
+    color: #000;
 }
 
 .opener h2 {
     width: 100%;
     text-align: center;
-    color: #000;
 }
 
 .opener p {
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
-    color: #fff8f8;
 }
 
 // Project Settings
@@ -65,8 +65,8 @@
 }
 
 .PC {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
 }
 
 .Mobile {
