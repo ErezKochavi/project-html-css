@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World search</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="world.css">
+</head>
+<body>
+    <h1 class="alert alert-primary text-center">World App</h1>
+    <!-- countries carousel  -->
+    <div class="contanier mx-auto">
+        <div id="carouselExampleAutoplaying" class="carousel slide w-50 h-50" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<!-- form -->
+<div class="container">
+    <div class="form-floating my-3 form-check-inline w-100 text-center">
+        <input type="text" class="form-control text-center" id="country" placeholder="Israel" />
+        <label for="Country">Country</label>
+    </div>
+<button class="btn btn-primary w-100" onclick="search()">Search</button>
+<!-- Result -->
+<div id="content"></div>
+
+</div>
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="world.js"></script>
+</body>
+</html>

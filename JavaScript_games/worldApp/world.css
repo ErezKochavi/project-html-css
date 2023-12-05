@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191919;
+}
+
+
+
+#carouselExampleAutoplaying {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: auto;
+}

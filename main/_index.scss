@@ -49,6 +49,7 @@ body {
 .knowledge h3 {
     text-align: center;
     width: 100%;
+    margin-top: 45px;
 }
 
 .icon {
@@ -139,7 +140,7 @@ body {
 
 // Contact settings
 .Contact {
-    height: 55vh;
+    height: 65vh;
     width: 100%;
     color: #fff;
 }
@@ -565,7 +566,7 @@ body {
     }
 
     .knowledge {
-        width: 55%;
+        width: 100%;
         height: 50%;
     }
 
@@ -576,7 +577,7 @@ body {
 
     .icon {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .noCodeIcon {
@@ -589,13 +590,12 @@ body {
     }
 
     .info .knowledge span {
-        width: 70px;
+        width: 60px;
         border-radius: 3px;
         font-size: 1rem;
         background-color: #77777792;
         color: #fff;
         text-align: center;
-        margin: 5px;
     }
 
     .info .knowledge span:hover {
